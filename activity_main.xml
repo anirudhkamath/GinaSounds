@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="wrong answer"
-            android:id="@+id/btn1"
+            android:id="@+id/btn11"
             android:background="@android:color/white"
             android:fontFamily="sans-serif-condensed"
             android:layout_marginTop="15dp"
@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
-            android:id="@+id/btn2"
+            android:id="@+id/btn12"
             android:text="I hate you"
             android:fontFamily="sans-serif-condensed"
             android:layout_marginLeft="15dp"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
-            android:id="@+id/btn3"
+            android:id="@+id/btn13"
             android:text="Less talk more solve"
             android:fontFamily="sans-serif-condensed"
             android:layout_marginStart="15dp"
@@ -45,6 +45,36 @@
             android:layout_marginTop="15dp"
             android:layout_weight="1"
             android:onClick="thirdClick"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No I can't"
+                    android:id="@+id/btn21"
+                    android:background="@android:color/white"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:onClick="fourthClick"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:id="@+id/btn22"
+                    android:text="Mic drop"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:onClick="fifthClick"/>
+
         </LinearLayout>
 
 </RelativeLayout>
